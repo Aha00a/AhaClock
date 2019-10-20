@@ -23,6 +23,7 @@
 		4CD1425E235C31720015304E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CD14260235C31720015304E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD14261235C31720015304E /* AhaClock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AhaClock.entitlements; sourceTree = "<group>"; };
+		AB6C7F996165BAEDA4118989 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 			children = (
 				4CD14253235C31710015304E /* AhaClock */,
 				4CD14252235C31710015304E /* Products */,
+				AB6C7F996165BAEDA4118989 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
