@@ -10,8 +10,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        VStack {
+            Button(action: {
+                
+            }) { Text("yyyy-MM-dd'T'HH:mm:ss") }
+            Button(action: {
+
+            }) { Text("yyyy-MM-dd HH:mm:ss") }
+            Button(action: {
+
+            }) { Text("MM-dd HH:mm") }
+        }
     }
 }
 

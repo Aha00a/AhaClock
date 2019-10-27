@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="532" height="298"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2880" height="1777"/>
+            <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="532" height="298"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="djn-up-jLt">
+                        <rect key="frame" x="19" y="263" width="443" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="LFZ-Yw-PRB"/>
+                            <constraint firstAttribute="width" constant="440" id="X9m-L8-feF"/>
+                        </constraints>
+                        <buttonCell key="cell" type="radio" title="yyyy-MM-dd'T'HH:mm:ss" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="3FC-Ff-6o9">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="k0v-UA-f8z">
+                        <rect key="frame" x="19" y="241" width="443" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="440" id="SvX-CO-giC"/>
+                        </constraints>
+                        <buttonCell key="cell" type="radio" title="yyyy-MM-dd'T'HH:mm:ss" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="6Lk-nS-AVz">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="djn-up-jLt" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="20" symbolic="YES" id="Js5-lj-ZjF"/>
+                    <constraint firstItem="k0v-UA-f8z" firstAttribute="top" secondItem="djn-up-jLt" secondAttribute="bottom" constant="6" symbolic="YES" id="aCn-IK-AIF"/>
+                    <constraint firstItem="djn-up-jLt" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="hMx-gg-Cym"/>
+                    <constraint firstItem="djn-up-jLt" firstAttribute="leading" secondItem="k0v-UA-f8z" secondAttribute="leading" id="jmp-aN-0Nx"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="166" y="161"/>
+        </window>
+    </objects>
+</document>

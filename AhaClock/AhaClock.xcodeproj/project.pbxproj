@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C099FCF235C3DE800843933 /* WindowSetting.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C099FCE235C3DE800843933 /* WindowSetting.xib */; };
 		4CD14255235C31710015304E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD14254235C31710015304E /* AppDelegate.swift */; };
 		4CD14257235C31710015304E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD14256235C31710015304E /* ContentView.swift */; };
 		4CD14259235C31720015304E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD14258235C31720015304E /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C099FCE235C3DE800843933 /* WindowSetting.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WindowSetting.xib; sourceTree = "<group>"; };
 		4CD14251235C31710015304E /* AhaClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhaClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD14254235C31710015304E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD14256235C31710015304E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				4CD14260235C31720015304E /* Info.plist */,
 				4CD14261235C31720015304E /* AhaClock.entitlements */,
 				4CD1425A235C31720015304E /* Preview Content */,
+				4C099FCE235C3DE800843933 /* WindowSetting.xib */,
 			);
 			path = AhaClock;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C099FCF235C3DE800843933 /* WindowSetting.xib in Resources */,
 				4CD1425F235C31720015304E /* Main.storyboard in Resources */,
 				4CD1425C235C31720015304E /* Preview Assets.xcassets in Resources */,
 				4CD14259235C31720015304E /* Assets.xcassets in Resources */,
